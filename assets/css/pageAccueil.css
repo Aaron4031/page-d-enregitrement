@@ -1,0 +1,50 @@
+*,::after,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+.table{
+    margin: 5px auto;
+    
+    justify-content: center;
+    max-width: 1000px;
+    width: 80%;
+}
+h1{
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+}
+th,td
+{
+    padding: 25px;
+    text-align: center;
+}
+a
+{
+    /* border: 2px solid transparent; */
+    padding: 5px;
+    margin: 10px;
+    /* margin-top: 15px; */
+    float: right;
+    margin-right: 50%;
+    background: cadetblue;
+    color: #000;
+    text-transform: uppercase;
+    border-radius: 15px;
+    border:3px solid rgb(7, 7, 7);
+  
+    
+}
+a:hover
+{
+    text-decoration: none;
+    background: #000;
+    text-transform: uppercase;
+    color: #fff;
+    
+   
+}

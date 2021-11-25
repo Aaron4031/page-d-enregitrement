@@ -1,0 +1,69 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/assets/css/formulaire-inscription.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+    <script src="/assets/js/formulaire-inscription.js" defer></script>
+    
+    <title>Document</title>
+</head>
+<body>
+    <form action="/page/pageAccueil.html" method="get">
+
+       <input type="text"  id="noms" placeholder="noms" >
+
+
+     <input type="text"  id="Prénoms" placeholder="prenoms">
+
+     <div>  
+       <p>Date de naissance<br><select name="jours" id="jours">
+                <option value="day">jours</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+            </select>
+            <select name="mois" id="mois">
+                <option value="mois">mois</option>
+                <option value="janvier">jan</option>
+                <option value="fevrier">fev</option>
+                <option value="mars">mar</option>
+                <option value="avril">avr</option>
+                <option value="mai">mai</option>
+                <option value="juin">juin</option>
+                <option value="juillet">juillet</option>
+                <option value="aout">aôut</option>
+                <option value="septembre">septembre</option>
+                <option value="octobre">octobre</option>
+                <option value="novembre">novembre</option>
+                <option value="decembre">decembre</option>
+            </select>
+
+              <select name="années" id="annees">
+                    <option value="années">années</option>
+                    <option value="1999">1999</option>
+                    <option value="2001">2001</option>
+                    <option value="2002">2002</option>
+                    <option value="2003">2003</option>
+                    <option value="2004">2004</option>
+            </select> </p> 
+            </div>
+            
+        <input type="email" id="email" placeholder='email' required>
+<input type="password" required placeholder="mot de passe" id="MP"><p> 
+<input type="password" required placeholder="confirmer mot de passe" id="CMP"><p> 
+     <button class="button">Envoyer</button>
+    </form>
+
+
+    <!-- <h2 class="afficher"></h2>
+    <input type="text" id="nom">
+    <button class="btn">Envoyer</button> -->
+</body>
+</html>
